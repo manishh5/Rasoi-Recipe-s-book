@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles/rasoi-header.css"> <!-- Ensure the path is correct -->
+        <link rel="stylesheet" href="styles/rasoi.css">
+        <link rel="stylesheet" href="styles/add-recipe.css">
+        <link rel="shortcut icon" href="img/rasoi-icon.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+        <title>Rasoi - Let's discover amazing recipes</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-section">
+            <a href="index.html" class="header-link">
+                <img class="rasoi-logo"
+                src="img/rasoi-logo.png">
+            </a>
+            </div>
+            <div class="search-group-middle">
+                <input type="search" class="search-bar js-search-bar" placeholder="Search">
+                <button class="search-button">
+                    <img class="search-icon js-search-bar-icon" src="img/search-icon.png">
+                </button>
+            </div>
+            <div class="right-section">
+                <a href="index.html" class="home-link">
+                <div class="home-text">Home</div>
+                </a>
+                <a href="fav.html" class="fav-list-link">
+                <div class="fav-text">Fav</div>
+                </a>
+                <a href="add-recipe.html" class="add-link">
+                <div class="add">+Add</div>
+                </a>
+            </div>
+        </div>
+        <div class="body-color">
+            <div class="text-style">
+                Add your recipe here!🤤
+            </div>
+            <div class="add-recipe">
+                <form class="add-recipe">
+                    <input type="text" class="recipe-name" required placeholder="Enter recipe's name"><br>
+                    <input type="text" class="recipe-name2" required placeholder="Enter ingredients"><br>
+                    <input type="text" class="recipe-name2" required placeholder="Enter instructions"><br>
+                    <input type="url" class="recipe-name" required placeholder="Paste recipe url"><br>
+
+                    <button type="submit" class="add-recipe-button">Add Recipe</button>
+                </form>
+            </div>       
+        </div>
+        <script type="module" src="script/add-recipe.js"></script>
+    </body>
+</html>
